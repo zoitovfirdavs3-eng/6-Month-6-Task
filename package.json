@@ -1,0 +1,29 @@
+{
+  "name": "6-hometask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "converter-mb": "^1.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^8.0.1",
+    "pg": "^8.20.0",
+    "sequelize": "^6.37.7",
+    "shokhijakhon-error-handler": "^1.1.0",
+    "uuid": "^13.0.0"
+  }
+}
